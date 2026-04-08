@@ -1,133 +1,129 @@
-# Privacy Policy for PlayO - Video & Music Player
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Privacy Policy - PlayO</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      line-height: 1.6;
+      margin: 0;
+      padding: 20px;
+      background: #f9f9f9;
+      color: #333;
+    }
+    .container {
+      max-width: 900px;
+      margin: auto;
+      background: #fff;
+      padding: 30px;
+      border-radius: 10px;
+      box-shadow: 0 2px 10px rgba(0,0,0,0.1);
+    }
+    h1, h2 {
+      color: #222;
+    }
+    h1 {
+      border-bottom: 2px solid #eee;
+      padding-bottom: 10px;
+    }
+    ul {
+      margin-left: 20px;
+    }
+    strong {
+      color: #000;
+    }
+    .footer {
+      margin-top: 30px;
+      font-size: 14px;
+      color: #777;
+    }
+  </style>
+</head>
+<body>
 
-**Last updated:** April 8, 2026  
+<div class="container">
+  <h1>Privacy Policy for PlayO - Video & Music Player</h1>
+  <p><strong>Last updated:</strong> April 8, 2026</p>
 
-This Privacy Policy describes how **\[PlayO: Video & Music Player\]** (“we”, “us”, “our”) handles information when you use the mobile application **PlayO - Video & Music Player** (the “App”, package name: `com.playo.player.media`).
+  <p>This Privacy Policy describes how <strong>PlayO - Video & Music Player</strong> (“we”, “us”, “our”) handles information when you use the mobile application (package name: <code>com.playo.player.media</code>).</p>
 
-By using the App, you agree to this Privacy Policy. If you do not agree, please do not use the App.
+  <h2>1. Summary</h2>
+  <ul>
+    <li>The app plays video and audio from your device and network sources you provide.</li>
+    <li>No account is required.</li>
+    <li>No analytics, ads, or crash-reporting services sending personal data to our servers.</li>
+    <li>Most data stays on your device.</li>
+  </ul>
 
----
+  <h2>2. Information the App accesses</h2>
 
-## 1. Summary
+  <h3>2.1 Media on your device</h3>
+  <p>The app may access video/audio files and metadata such as file name, path, duration, resolution, size, and modification time.</p>
 
-- The App is designed to **play video and audio** from content on your device and, when you choose, from **network addresses you provide**.
-- We do **not** require you to create an account to use the App.
-- Based on the current version of the App, **we do not operate our own analytics, advertising, or crash-reporting services** that send your personal data to our servers. (The App does not include Firebase Analytics, Crashlytics, or similar SDKs in its application code as reviewed for this policy.)
-- **Most data stays on your device** (preferences, local library index, search history, playback-related settings).
+  <p><strong>Permissions used:</strong></p>
+  <ul>
+    <li>READ_MEDIA_VIDEO</li>
+    <li>READ_EXTERNAL_STORAGE / WRITE_EXTERNAL_STORAGE (older Android versions)</li>
+  </ul>
 
-You should host this policy at a **public URL** (for example on your website) and enter that URL in Google Play Console.
+  <h3>2.2 Network access</h3>
+  <p>The app uses INTERNET permission when you open network streams or content URLs.</p>
 
----
+  <h3>2.3 Playback and background operation</h3>
+  <p>Foreground services may be used for uninterrupted playback.</p>
 
-## 2. Information the App accesses
+  <h3>2.4 Local data storage</h3>
+  <ul>
+    <li>App settings (DataStore)</li>
+    <li>Search history</li>
+    <li>Local media database (Room)</li>
+  </ul>
 
-### 2.1 Media on your device
+  <p>All this data remains on your device.</p>
 
-To show your library and play files, the App may access:
+  <h3>2.5 Sharing</h3>
+  <p>Sharing uses Android system features. We do not control third-party apps you share content with.</p>
 
-- **Video (and related) files** on your device, including metadata such as file names, paths or content URIs, duration, resolution, size, and modification time.
-- **Thumbnails** generated or cached locally to improve the user interface.
+  <h3>2.6 Android backup</h3>
+  <p>Backup behavior depends on your device and settings.</p>
 
-This access is implemented using Android storage permissions as required for your Android version, including where applicable:
+  <h2>3. Children’s Privacy</h2>
+  <p>This app is not intended for children under 13.</p>
 
-- `READ_MEDIA_VIDEO`
-- `READ_EXTERNAL_STORAGE` and `WRITE_EXTERNAL_STORAGE` (on older Android versions, as declared in the App manifest)
+  <h2>4. Third-party services</h2>
+  <p>The app uses open-source libraries (Jetpack Compose, Media3, Coil, etc.) only for functionality.</p>
 
-The App may use **scoped storage** and **legacy storage** options as declared in the manifest (`requestLegacyExternalStorage`) for compatibility with older devices and media access patterns.
+  <h2>5. Security</h2>
+  <p>We use reasonable measures, but no system is 100% secure.</p>
 
-### 2.2 Network access
+  <h2>6. Your rights</h2>
+  <ul>
+    <li>You can clear app data or uninstall the app.</li>
+    <li>You can revoke permissions in Android settings.</li>
+  </ul>
 
-The App declares the **`INTERNET`** permission. Network connectivity may be used for example when:
+  <h2>7. International users</h2>
+  <p>Your data may be processed according to applicable laws.</p>
 
-- You **open a network stream** by entering or selecting a URL (the App connects **only to the destinations you choose**).
-- **Libraries used by the App** load resources over the network when needed (for example, image loading for thumbnails or artwork where supported by those libraries and your content).
+  <h2>8. Changes to this policy</h2>
+  <p>We may update this policy anytime. Changes will be posted here.</p>
 
-The merged application may also include permissions commonly added by playback and system libraries, such as **`ACCESS_NETWORK_STATE`** and **`WAKE_LOCK`**, to support media playback and network-aware behavior.
+  <h2>9. Contact</h2>
+  <p>
+    <strong>Name:</strong> Shanti Lata Nayak<br>
+    <strong>Address:</strong> 1st cross house no 14 HSR Layout<br>
+    <strong>Email:</strong> Shantilatanayak99@gmail.com
+  </p>
 
-### 2.3 Playback and background operation
+  <h2>10. Disclaimer</h2>
+  <p>This document is not legal advice. Review with a professional if needed.</p>
 
-To play media reliably, the App may use **foreground services** and related permissions (for example **`FOREGROUND_SERVICE`** and **`FOREGROUND_SERVICE_MEDIA_PLAYBACK`**) so playback can continue according to your settings and Android rules.
+  <div class="footer">
+    © 2026 PlayO - Video & Music Player
+  </div>
+</div>
 
-### 2.4 Data stored locally on your device
-
-The App stores information **on your device** to provide its features, including:
-
-- **App and player settings** (for example theme, layout, gesture options, decoder preferences, subtitle preferences) using Android **DataStore**.
-- **Search history** (search queries you have used inside the App), stored locally.
-- A **local database** (Room) that can hold **indexed information about media** discovered on the device (such as URI/path, file name, parent path, technical metadata like duration and dimensions, and paths to locally generated thumbnails). This is used to power the library, search, and playback experience.
-
-We do **not** use this local database to send your file list to our servers in the current App design.
-
-### 2.5 Sharing and system features
-
-When you use **Share** or similar actions, the App uses **Android’s standard sharing** and may use a **`FileProvider`** so other apps you select can receive content **according to your choice**. We do not control what those third-party apps do with shared content.
-
-### 2.6 Android backup
-
-The App manifest may allow **Android backup / device transfer** (`allowBackup`). Default backup rules files in the project are largely placeholders; whether Google backup includes App data depends on your device, account, and Android version. **Sensitive paths can be excluded** in future updates via backup rules if needed.
-
----
-
-## 3. Children’s privacy
-
-The App is **not directed at children under 13** (or the minimum age required in your jurisdiction). We do not knowingly collect personal information from children. If you believe a child has provided us information, contact us at the address below and we will take appropriate steps.
-
----
-
-## 4. Third-party services and open-source software
-
-The App is built with **open-source libraries** (for example Jetpack Compose, Media3/ExoPlayer-related components, Coil for image loading, and others as listed in the project). Those libraries are subject to their own licenses. They may process data **only as needed** to provide their function inside the App (for example decoding media or loading images).
-
-**Google Play** and **your device manufacturer** may collect information according to their own policies when you install or use apps from Google Play.
-
----
-
-## 5. Security
-
-We use reasonable measures to protect the App. However, **no method of electronic storage is 100% secure**. You are responsible for keeping your device secure and reviewing permissions you grant to the App and to other apps.
-
----
-
-## 6. Your choices and rights
-
-Depending on where you live, you may have rights to **access, correct, delete, or restrict** certain processing of personal data.
-
-For data stored **only on your device**, you can often:
-
-- Clear the App’s storage or uninstall the App (this removes locally stored App data subject to Android behavior and backup).
-- Revoke or change **permissions** in Android Settings.
-- Manage **search history** inside the App where the feature is available.
-
-To exercise rights that apply to us as the publisher, contact us using the details below.
-
----
-
-## 7. International users
-
-If you use the App from outside the country where we operate, your information may be processed in that country or other countries where service providers operate, subject to applicable law.
-
----
-
-## 8. Changes to this policy
-
-We may update this Privacy Policy from time to time. We will post the new version at the same URL and update the “Last updated” date. Continued use of the App after changes means you accept the updated policy.
-
----
-
-## 9. Contact
-
-**Data controller / publisher:**  
-\[Shanti Lata Nayak\]  
-\[1st cross house no 14 HSR Layout\]  
-
-**Email:** \[Shantilatanayak99@gmail.com\]
-
----
-
-## 10. Disclaimer for the developer
-
-This document was drafted to reflect the **PlayO - Video & Music Player** codebase (permissions, local DataStore/Room usage, sharing, and dependencies) at the time of writing. It is **not legal advice**. Have a qualified attorney review it before publication, especially if you:
-
-- Add **analytics, ads, cloud sync, accounts**, or **server-side** collection;
-- Change **permissions** or **data flows**;
-- Target users in the **EU/UK** (GDPR), **California** (CCPA/CPRA), or other regions with specific requirements.
+</body>
+</html>
